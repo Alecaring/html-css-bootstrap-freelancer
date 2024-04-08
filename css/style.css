@@ -1,0 +1,91 @@
+.my_style_bgcolor_navbar{
+    background-color: rgb(44 63 80); 
+}
+.ms_primary-bg {
+    background-color: #18bc9b;
+}
+.ms_hero-img {
+    max-width: 200px;
+}
+.star::before,
+.star::after {
+    content: "";
+    width: 10%;
+    height: 2px;
+    display: inline-block;
+    background-color: black;
+    vertical-align: middle;
+}
+.ms_primary-bg .star::before,
+.ms_primary-bg .star::after {
+    
+    background-color: white;
+    
+}
+
+.ms_hero-container {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+}
+.ms_portfolio-item {
+    /* debug */
+    min-height: 200px;
+    background-color: lightblue;
+
+}
+.ms_small-container {
+    width: 80%;
+    max-width: 450px;
+    margin: 0 auto;
+    border: 1px solid black;
+    min-height: 200px;
+}
+.ms_footer-top {
+    background-color: #3b546d;
+    /* debug */
+    min-height: 200px;
+}
+.ms_footer-bottom {
+    background-color: rgb(44 63 80);
+    /* debug */
+    min-height: 100px;
+}
+.ms_form-controll {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.ms_btn-bg {
+    background-color: #18bc9b;
+}
+.ms_socilas {
+    list-style-type: none;
+    display: flex;
+}
+.ms_socilas a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: white;
+    border: 0.5px solid white;
+    margin: 0 5px;
+    text-decoration: none;
+
+}
+@media screen and (min-width: 768px) {
+    .ms_small-container {
+        max-width: 600px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .ms_small-container {
+        max-width: 800px;
+    }
+}
