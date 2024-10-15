@@ -26,9 +26,8 @@
 .ms_hero-container {
     width: 100%;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 10vh auto;
     /* debug */
-    border: 1px solid black;
 }
 .ms_portfolio-item {
     /* debug */
@@ -40,7 +39,6 @@
     width: 80%;
     max-width: 450px;
     margin: 0 auto;
-    border: 1px solid black;
     min-height: 200px;
 }
 .ms_footer-top {
@@ -52,6 +50,9 @@
     background-color: rgb(44 63 80);
     /* debug */
     min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .ms_form-controll {
     border-radius: 0;
@@ -74,7 +75,6 @@
     height: 3rem;
     border-radius: 50%;
     color: white;
-    border: 0.5px solid white;
     margin: 0 5px;
     text-decoration: none;
 
